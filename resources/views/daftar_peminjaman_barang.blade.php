@@ -17,7 +17,7 @@
     <main>
     <div class="mb-4">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Cari akun...">
+                <input type="text" class="form-control" placeholder="Cari barang...">
                 <button class="btn btn-outline-success">Search</button>
             </div>
         </div>

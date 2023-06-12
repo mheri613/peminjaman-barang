@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <style>
-        .table-container {
-            position: relative;
-            z-index: 1;
-        }
-    </style>
-    <title>Document</title>
+    <title>daftar akun</title>
 </head>
 <body>
 
@@ -28,7 +22,7 @@
                 <button class="btn btn-outline-success">Search</button>
             </div>
         </div>
-        <div class="table-responsive table-container">
+        <div class="table-responsive table-container center">
             <table class="table">
                 <thead>
                     <tr>
@@ -51,6 +45,7 @@
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <button type="button" class="btn btn-success">Terima</button>
                                 <button type="button" class="btn btn-danger">Tolak</button>
+                                <a href="edit" class="btn btn-primary">Edit</a>
                             </div>
                         </td>
                     </tr>
@@ -64,6 +59,7 @@
                             <div class="btn-group" role="group" aria-label="Basic example">
                                 <button type="button" class="btn btn-success">Terima</button>
                                 <button type="button" class="btn btn-danger">Tolak</button>
+                                <a href="edit" class="btn btn-primary">Edit</a>
                             </div>
                         </td>
                     </tr>
