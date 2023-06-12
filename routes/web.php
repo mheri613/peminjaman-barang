@@ -22,3 +22,21 @@ Route::get('/home', function () {
 Route::get('/daftar_barang', function () {
     return view('daftar_barang');
 });
+Route::get('/daftar_akun', function () {
+    return view('daftar_akun');
+});
+Route::get('/daftar_peminjaman_barang', function () {
+    return view('daftar_peminjaman_barang');
+});
+Route::get('/daftar_persetujuan_barang', function () {
+    return view('daftar_persetujuan_barang');
+});
+Route::get('/daftar', function () {
+    return view('daftar');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/profile', function () {
+    return view('profile');
+});

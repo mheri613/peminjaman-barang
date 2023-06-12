@@ -1,19 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="auto">
-
+<html lang="en">
 <head>
-    <script src="js/color-modes.js"></script>
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
-    <meta name="generator" content="Hugo 0.112.5" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Persetujuan Barang</title>
-
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <style>
@@ -94,82 +84,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <!-- logo -->
-            <a class="navbar-brand" href="#">
-                <img src="LOGO.png" alt="" width="50">
-            </a>
-
-            <!-- toggle button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse fw-normal" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Daftar Barang</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Daftar Peminjaman</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Profile
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li><a class="dropdown-item" href="#">Daftar Persetujuan</a></li>
-                            <li>
-                                <a class="dropdown-item" href="#">Daftar Akun</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+@include("komponen/navbar")
+    <header class="bg-dark text-white text-center py-5">
+            <h1>Daftar Persetujuan Barang</h1>
+    </header>
+    <div class="container">
     <main>
-        <section class="py-5 text-center container">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="LOGO.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="LOGO.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="LOGO.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-
-        <div class="position-relative mt-3">
-            <div class="position-absolute top-50 start-50 translate-middle">
-                <div class="row">
-                    <div class="col-lg-auto">
-                        <input type="text" name="search" id="" class="form-control" placeholder="Search">
-                    </div>
-                </div>
+        <div class="mb-4">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Cari akun...">
+                <button class="btn btn-outline-success">Search</button>
             </div>
         </div>
 
@@ -194,7 +118,7 @@
                                 <td>@mdo</td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="Basic example">
-                                        <button type="button" class="btn btn-primary">Terima</button>
+                                        <button type="button" class="btn btn-success">Terima</button>
                                         <button type="button" class="btn btn-danger">Tolak</button>
                                     </div>
                                 </td>
@@ -206,7 +130,7 @@
                                 <td>@mdo</td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="Basic example">
-                                        <button type="button" class="btn btn-primary">Terima</button>
+                                        <button type="button" class="btn btn-success">Terima</button>
                                         <button type="button" class="btn btn-danger">Tolak</button>
                                     </div>
                                 </td>
@@ -218,7 +142,7 @@
                                 <td>@mdo</td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="Basic example">
-                                        <button type="button" class="btn btn-primary">Terima</button>
+                                        <button type="button" class="btn btn-success">Terima</button>
                                         <button type="button" class="btn btn-danger">Tolak</button>
                                     </div>
                                 </td>
@@ -230,7 +154,7 @@
                                 <td>@mdo</td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="Basic example">
-                                        <button type="button" class="btn btn-primary">Terima</button>
+                                        <button type="button" class="btn btn-success">Terima</button>
                                         <button type="button" class="btn btn-danger">Tolak</button>
                                     </div>
                                 </td>
@@ -242,7 +166,7 @@
                                 <td>@mdo</td>
                                 <td>
                                     <div class="btn-group" role="group" aria-label="Basic example">
-                                        <button type="button" class="btn btn-primary">Terima</button>
+                                        <button type="button" class="btn btn-success">Terima</button>
                                         <button type="button" class="btn btn-danger">Tolak</button>
                                     </div>
                                 </td>
@@ -253,7 +177,8 @@
             </div>
         </div>
     </main>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    </div>
+@include("komponen/footer")
 </body>
-
+<script src="js/bootstrap.bundle.min.js"></script>
 </html>
