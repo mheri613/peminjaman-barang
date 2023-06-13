@@ -16,7 +16,7 @@
 
 
 
-    <footer class="bg-light text-center py-3 mt-5 fixed-bottom">
+    <footer class="bg-light text-center py-3 mt-5 fluid-bottom">
             &copy; make with 💀 by heri
     </footer>
 </body>
