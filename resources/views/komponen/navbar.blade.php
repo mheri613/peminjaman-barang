@@ -48,10 +48,8 @@
                             </li>
                         </ul>
                     </li>
-                </ul>
-            </div>
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ms-auto">
+                    <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
@@ -85,6 +83,8 @@
                             </li>
                         @endguest
                 </ul>
+                </ul>
+            </div>
         </div>
     </nav>
 
