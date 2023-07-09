@@ -44,7 +44,8 @@
         <div class="row h-75 justify-content-center align-items-center">
             <div class="col-lg-8">
                 <div class="profile">
-                    <img src="https://drive.google.com/uc?export=view&id=1vDSXyy02XW3gAl75wCI1UP6GT-Icd1Sn" alt="foto profil" class="profile-img img-fluid ukuran-gambar">
+                    <!-- <img src="https://drive.google.com/uc?export=view&id=1vDSXyy02XW3gAl75wCI1UP6GT-Icd1Sn" alt="foto profil" class="profile-img img-fluid ukuran-gambar"> -->
+                    <img src="https://avatars.githubusercontent.com/u/112502340?v=4" alt="foto profil" class="profile-img img-fluid ukuran-gambar">
                     <h3 class="mb-4">Heri Maulana</h3>
                     <ul class="list-group">
                         <li class="list-group-item">Email: heri@pnl.com</li>

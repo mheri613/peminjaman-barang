@@ -8,16 +8,8 @@
 </head>
 <body>
 
-
-
-
-
-
-
-
-
     <footer class="bg-light text-center py-3 mt-5 fluid-bottom">
-            &copy; make with 💀 by heri
+            &copy; 2023 make with 💀 by heri
     </footer>
 </body>
 <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
